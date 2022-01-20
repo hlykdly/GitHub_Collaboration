@@ -10,4 +10,10 @@ public class Person {
         this.lastName = lastName;
         Age = age;
     }
+
+
+    public void speak () {
+        System.out.println("Hello my name is " + firstName + " " + lastName);
+
+    }
 }
